@@ -1,0 +1,140 @@
+header{
+    width: 100%;
+}
+.menu-wrapper{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(119,119,119,1);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(119,119,119,1);
+    box-shadow: 0px 4px 16px 0px rgba(119,119,119,1);
+
+}
+.header-menu-wrapper{
+    padding: 17px 0 0 0 ;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.header-menu > li a{
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 14px;
+}
+.header-menu  li:first-child a{
+    color: #111111;
+}
+
+.header-menu li:first-child a:before{
+    content: "";
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    height:1px;
+    width: 20px;
+    background: #000000;
+}
+.header-menu li .fa-search {
+    color: #777777;
+
+}
+.header-logo{
+    padding: 26px 0 0 0 ;
+
+}
+
+/* start block-1 */
+.block-1{
+    background: #fafafa;
+    padding-top: 33px;
+}
+.carousel-item img {
+    height: 650px !important;
+}
+
+.block-1-container{
+    border-top: 1px solid #d3d7d6;
+    border-bottom: 1px solid #d3d7d6;
+    padding: 18px 10.5%;
+}
+.block-1-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.block-1-menu li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+/*end block-1 */
+
+/* start block-2 */
+.block-2{
+    padding: 29px 0 71px;
+    background: #fafafa;
+}
+.block-2-img-wrapper{
+    display: flex;
+    padding: 0;
+}
+.block-2-img-wrapper .row {
+    margin: 0;
+}
+.block-2-img{
+    margin-bottom: 33px;
+}
+.block-2-btn{
+    display: block;
+    margin:  0 auto;
+    padding: 2px 17px;
+    text-transform: uppercase;
+    background: #959595;
+    color: #fafafa;
+    border: none;
+    border-radius: 3px;
+}
+/* end  block-2 */
+
+/* start block-3 */
+.block-3-logo{
+    display: block;
+    text-align: center;
+    padding: 64px 0 40px;
+}
+.social-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin:  0 auto;
+    padding: 0;
+    list-style-type: none;
+
+}
+.social{
+    border-top:  1px solid #ebebeb;
+    border-bottom:  1px solid #ebebeb;
+    padding: 20px 0;
+}
+/* end block-3 */
+
+/* start footer */
+.footer-text{
+    font-size: 13px;
+    padding: 35px 0 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9c9c9c;
+
+}
+.footer-text-2{
+    color: #000000;
+}
+/* end footer */
+
