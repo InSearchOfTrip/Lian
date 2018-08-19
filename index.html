@@ -17,13 +17,13 @@
         <div class="menu-wrapper">
             <div class="container ">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 header-logo">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 header-logo">
                         <a  href="#">
                             <img src="./img/header/logo.png" alt="logo">
                         </a>
                     </div>
-                    <menu class="col-lg-6 col-md-6 header-menu-wrapper">
-                        <ul class="header-menu">
+                    <menu class="col-lg-6 col-md-6 col-sm-6 col-6 header-menu-wrapper">
+                        <ul class="header-menu d-sm-none d-none d-lg-flex">
                             <li><a href="#">home</a></li>
                             <li><a href="#">about</a></li>
                             <li><a href="#">porfolio</a></li>
@@ -31,6 +31,10 @@
                             <li><a href="#">contacts</a></li>
                             <li><i class="fas fa-search"></i></li>
                         </ul>
+                        <div class="text-right d-sm-block" id="burger-menu-icon">
+                            <i class="fas fa-align-justify"></i>
+                        </div>
+
                     </menu>
                 </div>
             </div>
@@ -77,29 +81,28 @@
         </div>
     </div>
     <div class="block-2">
-        <div class="container block-2-img-wrapper">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
+        <div class="block-2-img-wrapper">
+
+                <div class="block-2-col">
                     <img src="./img/block-2-img/col1-1.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col1-2.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col1-3.jpg" alt="img" class="block-2-img">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
+
+
+                <div class="block-2-col">
                     <img src="./img/block-2-img/col2-1.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col2-2.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col2-3.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col2-4.jpg" alt="img" class="block-2-img">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-">
+
+                <div class="block-2-col">
                     <img src="./img/block-2-img/col3-1.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col3-2.jpg" alt="img" class="block-2-img">
                     <img src="./img/block-2-img/col3-3.jpg" alt="img" class="block-2-img">
                 </div>
-            </div>
+
          </div>
         <div class="container">
             <div class="row">
@@ -157,6 +160,19 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+<script src="./js/menu.js"></script>
+<div class="burger-menu-wrapper">
+    <div class="burger-close">
+        <i class="fa fa-times"></i>
+    </div>
+    <ul class="burger-menu">
+        <li><a href="#">home</a></li><hr class="burger-line">
+        <li><a href="#">about</a></li><hr class="burger-line">
+        <li><a href="#">porfolio</a></li><hr class="burger-line">
+        <li><a href="#">blog</a></li><hr class="burger-line">
+        <li><a href="#">contacts</a></li><hr class="burger-line">
+        <li><i class="fas fa-search"></i></li>
+    </ul>
+</div>
 </body>
 </html>
